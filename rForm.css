@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins'sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 body{
     display: flex;
@@ -14,16 +14,16 @@ body{
     padding: 10px;
 }
 .container {
-    max-width: 700px;
-    width: 100%;
-    background: #f9f5f0;
+    max-width: 500px;
+    background: #203354;
     padding: 25px 30px;
     border-radius: 5px;
 }
 .container .title {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     position: relative;
+    color: #f9f5f0;
 }
 .container .title::before{
     content: '';
@@ -46,6 +46,7 @@ form .user-details .input-box{
 .user-details .input-box .details{
     font-weight: 500;
     margin-bottom: 5px;
+    color: #f9f5f0;
 }
 .user-details .input-box .input{
     height: 45px;
@@ -58,17 +59,19 @@ form .user-details .input-box{
 }
 .user-details .input-box .input:focus,
 .user-details .input-box .input:valid{
-    border-color: #f9f5f0;    
+    border-color: #f9f5f0;;    
 }
 form .gender-details .gender-title {
     font-size: 20px;
     font-weight: 500;
+    color: #f9f5f0;
 }
 form .gender-details .category {
     display: flex;
     width: 80%;
     margin: 14px 0;
     justify-content: space-between;
+    color: #f9f5f0;
 }
 .gender-details .category label{
     display: flex;
@@ -100,11 +103,11 @@ form .button input{
     height: 100%;
     width: 100%;
     outline: none;
-    color: bisque;
+    color: #f9f5f0;
     border: none;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500px;
-    background: linear-gradient(135deg, #dc8fa4, #203354);
+    background: #152238;
     letter-spacing: 1px;
     border-radius: 5px;
 }
